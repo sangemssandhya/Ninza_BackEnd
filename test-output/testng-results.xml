@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="2" total="6" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-07-31T12:04:01 IST" name="Suite" finished-at="2024-07-31T12:04:07 IST" duration-ms="5436">
+    <groups>
+    </groups>
+    <test started-at="2024-07-31T12:04:01 IST" name="Test" finished-at="2024-07-31T12:04:07 IST" duration-ms="5436">
+      <class name="com.ninza.hrm.apiUsingUtilities.projecttest.copy.EmpolyeeeTest">
+        <test-method signature="addEmpolyeeTest()[pri:0, instance:com.ninza.hrm.apiUsingUtilities.projecttest.copy.EmpolyeeeTest@29215f06]" started-at="2024-07-31T12:04:05 IST" name="addEmpolyeeTest" finished-at="2024-07-31T12:04:06 IST" duration-ms="1218" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmpolyeeTest -->
+        <test-method signature="addEmpolyeewithoutEmailTest()[pri:0, instance:com.ninza.hrm.apiUsingUtilities.projecttest.copy.EmpolyeeeTest@29215f06]" started-at="2024-07-31T12:04:06 IST" name="addEmpolyeewithoutEmailTest" finished-at="2024-07-31T12:04:07 IST" duration-ms="220" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addEmpolyeewithoutEmailTest -->
+      </class> <!-- com.ninza.hrm.apiUsingUtilities.projecttest.copy.EmpolyeeeTest -->
+      <class name="com.ninza.hrm.api.UsingUtilitiesempolyeetest.ProjectTest">
+        <test-method is-config="true" signature="configBS()[pri:0, instance:com.ninza.hrm.api.UsingUtilitiesempolyeetest.ProjectTest@1151e434]" started-at="2024-07-31T12:04:00 IST" name="configBS" finished-at="2024-07-31T12:04:01 IST" duration-ms="1193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configBS -->
+        <test-method signature="addSingleProjectWithCreateTest()[pri:0, instance:com.ninza.hrm.api.UsingUtilitiesempolyeetest.ProjectTest@1151e434]" started-at="2024-07-31T12:04:01 IST" name="addSingleProjectWithCreateTest" finished-at="2024-07-31T12:04:05 IST" duration-ms="3876" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- addSingleProjectWithCreateTest -->
+        <test-method signature="CreateDuplicateProjectTest()[pri:0, instance:com.ninza.hrm.api.UsingUtilitiesempolyeetest.ProjectTest@1151e434]" started-at="2024-07-31T12:04:05 IST" name="CreateDuplicateProjectTest" finished-at="2024-07-31T12:04:05 IST" depends-on-methods="com.ninza.hrm.api.UsingUtilitiesempolyeetest.ProjectTest.addSingleProjectWithCreateTest" duration-ms="69" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateDuplicateProjectTest -->
+        <test-method is-config="true" signature="configAS()[pri:0, instance:com.ninza.hrm.api.UsingUtilitiesempolyeetest.ProjectTest@1151e434]" started-at="2024-07-31T12:04:07 IST" name="configAS" finished-at="2024-07-31T12:04:07 IST" duration-ms="2" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- configAS -->
+      </class> <!-- com.ninza.hrm.api.UsingUtilitiesempolyeetest.ProjectTest -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
